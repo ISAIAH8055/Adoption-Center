@@ -1,0 +1,106 @@
+<!-- Index.html  -->
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0"> 
+    <!-- Linking css file  -->
+    <link rel="stylesheet" href="style.css"> 
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles2.css">
+</head> 
+  
+<body> 
+  
+    <!-- Creating the form container  -->
+    <div class="container"> 
+        <h1>Survey Form</h1> 
+  
+        <!-- Contains error -->
+        <h4 id="errorText"></h4> 
+          
+        <!-- Form element  -->
+        <form id="surveyForm"> 
+  
+            <label for="name"> 
+                Name: 
+            </label><br> 
+            <input type="text" 
+                   id="name" 
+                   name="name" 
+                   required><br> 
+  
+            <label for="age"> 
+                Age: 
+            </label><br> 
+            <input type="number" 
+                   id="age" 
+                   name="age" 
+                   required><br> 
+  
+            <label> 
+                Favorite type of Animal 
+            </label><br> 
+            <input type="radio" 
+                   id="indoor" 
+                   name="type" 
+                   value="Indoor" 
+                   required> 
+              
+            <label for="indoor"> 
+              Dog   
+            </label><br> 
+            <input type="radio" 
+                   id="outdoor" 
+                   name="type" 
+                   value="Outdoor" 
+                   required> 
+              
+           <label for="outdoor"> 
+            Cat 
+            </label><br> 
+            <input type="radio" 
+                   id="both" 
+                   name="type" 
+                   value="Both" 
+                   required> 
+  
+            <label for="both"> 
+                Other 
+            </label><br> 
+  
+            <label for="favourite-breed"> 
+                Favorite Breed Of Animal: 
+            </label><br> 
+            <input type="text" 
+                   id="favorite-breed" 
+                   name="favorite-breed" 
+                   required><br> 
+  
+             
+  
+            <label for="feedback"> 
+                Your Thoughts on The Website (optional):  
+            </label><br> 
+            <input type="textarea" 
+                   id="feedback" 
+                   name="feedback"><br> 
+  
+  
+  
+            <button type="submit"> 
+                Submit 
+            </button>
+            <p><a href="index.html">Home</a></p> 
+        </form> 
+    </div> 
+  
+    <!-- linking javascript file  -->
+    <script src="script.js"></script> 
+    
+</body> 
+
+</html>

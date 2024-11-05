@@ -43,3 +43,26 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.center{
+    text-align:center;
+}section{
+    color:black
+}
+strong{
+    color: black
+}
+.tcg{
+    font-size: large;
+    width: 50%;
+    text-align: center;
+}
+li.bullets{
+    list-style-type:none;
+    padding-left:0;
+    align-content: center;
+}
+.centered-div {
+    width: 50%;      /* Or any specific width */
+    padding: 20px;
+    text-align: center;   /* Center text inside the div */
+}
